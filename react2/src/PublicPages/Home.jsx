@@ -1,8 +1,14 @@
+import Navbar from '../Components/Navbar'
+import Crausel from '../Components/Crausel'
+import Card from '../Components/Card'
+
 function Home(){
     return(
-        <div>
-            <h1>Here Rafay;</h1>
-        </div>
+      <div>
+        <Navbar/>
+        <Crausel/>
+        <Card/>
+      </div>
     )
 }
 export default Home;
